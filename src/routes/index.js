@@ -12,5 +12,6 @@ app.use(bodyParser.json());
 
 app.use(require('./login'));
 app.use(require('./programadores'));
+app.use(require('./proyectos'));
 
 module.exports = app;
